@@ -9,8 +9,8 @@ export default function Home() {
         Demo of Login with Next.js and NextAuth
       </h1>
       <p className="text-lg text-center mb-4">
-        This is a simple demo showcasing how to integrate Google Sign-In with
-        Next.js and NextAuth.
+        This is a simple demo showcasing how to integrate multiple Sign-In
+        Providers with Next.js and NextAuth.
       </p>
       <SignInButton />
     </main>

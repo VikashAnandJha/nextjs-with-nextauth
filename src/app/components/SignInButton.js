@@ -1,7 +1,17 @@
 "use client";
 
-import { signInToGoogle } from "../actions";
+import { signInToGithub, signInToGoogle } from "../actions";
 
 export default function SignInButton() {
-  return <button onClick={async () => signInToGoogle()}>Sign In</button>;
+  return (
+    <div>
+      <button onClick={async () => signInToGoogle()}>
+        Sign In with google
+      </button>
+      <hr></hr>
+      <button onClick={async () => signInToGithub()}>
+        Sign In with Github
+      </button>
+    </div>
+  );
 }
